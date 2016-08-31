@@ -25,4 +25,6 @@ def service_exists(host, port):
 
     return True
 
-log.info(service_exists(test_site, test_port))
+service_status = service_exists(test_site, test_port)
+
+log.info('Site ' + test_site + ' on port ' + str(test_port) + ' available: ' + str(service_status))
