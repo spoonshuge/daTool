@@ -1,4 +1,6 @@
 import socket
+# Local imports
+from src import log
 
 test_site = 'www.google.com'
 test_port = 80
@@ -23,4 +25,4 @@ def service_exists(host, port):
 
     return True
 
-print(service_exists(test_site, test_port))
+log.info(service_exists(test_site, test_port))
