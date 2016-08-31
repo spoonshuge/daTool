@@ -23,4 +23,4 @@ def service_exists(host, port):
 
     return True
 
-service_exists(test_site, test_port)
+print(service_exists(test_site, test_port))
