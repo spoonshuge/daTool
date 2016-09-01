@@ -1,4 +1,4 @@
-import socket
+import socket #import
 # Local imports
 from src import log
 
